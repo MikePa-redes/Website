@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookhub App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="imagenes/bookhub.png" type="image/x-icon" />
+  </head>
+  <body class="bg-black">
+    <div class="bg-white">
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="imagenes/bookhub.png" alt="logo" />
+            </a>
+          </div>
+          <div class="main-menu">
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="#">Acerca de nosotros</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a class="btn" href="#">
+                  <i class="fas fa-user"></i>Ingresar
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Hamburger button -->
+           <button id="hamburger-button" class="hamburger-button">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+           </button>
+           <div class="mobile-menu">
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="#">Acerca de nosotros</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a class="btn" href="#">
+                  <i class="fas fa-user"></i>Ingresar
+                </a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-heading text-xxl">
+              Mas de 100,000 libros disponibles y mucho más!
+            </h1>
+            <div class="mobile-container">
+              <p class="hero-text">A solo $99 al mes.</p>
+              <p class="sub-text">
+                ¿Quieres disfrutar de bookhub ya? Ingresa tu Email para crear una
+                cuenta ahora mismo!
+              </p>
+              <div class="email-form">
+                <input type="text" name="e-mail" placeholder="Email" />
+                <a href="#" class="btn btn-dark"
+                  >Comenzar <i class="fas fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- black background section  -->
+    <section class="motives bg-black">
+      <div class="container2">
+        <h2 class="motives-heading text-bg">Más motivos para unirte</h2>
+      </div>
+      <div class="container">
+        <div class="box-item box1">
+          <h3>Disfruta en cualquier dispositivo</h3>
+          <p>
+            Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV,
+            reproductores de Blu-ray y más.
+          </p>
+        </div>
+        <div class="box-item box2">
+          <h3>Descarga tu contenido para leer ofline</h3>
+          <p>Guarda tu contenido favorito y siempre tendrás algo para ver.</p>
+        </div>
+        <div class="box-item box3">
+          <h3>Disfruta donde quieras</h3>
+          <p>
+            Libros y contenido ilimitado en tu teléfono, tablet, laptop y TV.
+          </p>
+        </div>
+        <div class="box-item box4">
+          <h3>Crea perfiles para niños</h3>
+          <p>
+            Los niños vivirán aventuras con sus personajes favoritos en un
+            espacio diseñado exclusivamente para ellos, gratis con tu membresía.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--FAQ-->
+    <section class="faq bg-black">
+      <div class="container-sm">
+        <h3 class="text-xl text-center">Preguntas frecuentes</h3>
+        <div class="faq-content">
+          <!-- 1er grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Qué es bookhub?</h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="faq-group-body open">
+              <p>
+                Bookhub es un servicio de streaming que ofrece una gran variedad
+                de libros, revistas y documentos premiados en casi cualquier
+                pantalla conectada a internet. Todo lo que quieras ver, a un
+                costo mensual muy accesible. Siempre hay algo nuevo por
+                descubrir, ¡y todas las semanas se agregan más libros y
+                contenido!
+              </p>
+            </div>
+          </div>
+          <!-- 2do grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Cuánto cuesta bookhub?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body close">
+              <p>
+                Disfruta Bookhub en tu smartphone, tablet, smart TV, laptop o
+                dispositivo de streaming, todo por una tarifa plana mensual.
+                Planes desde $119 hasta $329 al mes. Sin costos adicionales ni
+                contratos.
+              </p>
+            </div>
+          </div>
+          <!-- 3er grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Dónde puedo ver Bookhub?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body close">
+              <p>
+                Disfruta donde quieras, cuando quieras. Inicia sesión en tu
+                cuenta de Bookhub para ver contenido al instante a través de
+                bookhub.com desde tu computadora personal o en cualquier
+                dispositivo con conexión a internet que cuente con la app de
+                Bookhub, como smart TV, smartphones, tablets, reproductores
+                multimedia y consolas de juegos. Además, puedes descargar tus
+                libros favoritos con la app para iOS o Android. Con la función
+                de descarga, puedes ver contenido donde vayas y sin conexión a
+                internet. Lleva Bookhub contigo adonde sea.
+              </p>
+            </div>
+          </div>
+          <!-- 4to grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Cómo cancelo?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body close">
+              <p>
+                Bookhub es flexible. Sin contratos molestos ni compromisos.
+                Cancela la membresía online con solo dos clics. No hay cargos
+                por cancelación. Empieza y termina cuando quieras.
+              </p>
+            </div>
+          </div>
+          <!-- 5to grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Qué puedo leer en Bookhub?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body close">
+              <p>
+                Bookhub tiene un amplio catálogo de libros, revistas,
+                documentos, artículos, originales premiados y más. Todo lo que
+                quieras ver, cuando quieras.
+              </p>
+            </div>
+          </div>
+          <!-- 6to grupo -->
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">¿Es bueno Bookhub para los niños?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body close">
+              <p>
+                La experiencia de Bookhub para niños está incluida en la
+                membresía para que los padres tengan el control mientras los
+                peques disfrutan libros y contenido familiares en su propio
+                espacio. Los perfiles para niños incluyen controles parentales
+                protegidos por PIN que te permiten restringir el contenido que
+                pueden ver los niños en función de la clasificación por edad y
+                bloquear determinados títulos que no quieras que los niños vean.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Second form -->
+    <section class="form2 bg-black">
+      <div class="container-sm">
+        <p>
+          ¿Quieres disfrutar de Bookhub ya? Ingresa tu email para crear una
+          cuenta o reiniciar tu membresía de Bookhub.
+        </p>
+        <input class="bg-dark" type="text" name="e-mail" placeholder="Email" />
+        <a href="#" class="btn btn-light"
+          >Comenzar <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html">
+              <img src="imagenes/bookhub-white.png" alt="logo" />
+            </a>
+            <div class="card bg-white">
+              <h4>Subscribirse para recibir noticias</h4>
+              <p class="text-sm">
+                Suscribete ahora para recibir noticias y recomendaciones acerca
+                de nuevos titulos.
+              </p>
+              <form>
+                <input type="email" id="email" placeholder="Enter your email" />
+                <button type="submit" class="btn bnt-primary bnt-block">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+            <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+          </div>
+          <div>
+            <h4>Bookhub</h4>
+            <ul>
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Centro de ayuda</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Recursos</h4>
+            <ul>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Términos de uso</a></li>
+              <li><a href="#">Información corportativa</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="#">hola@Bookhub.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
